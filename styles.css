@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+body{
+    background: linear-gradient(120deg,rgb(75, 0, 128),rgb(221, 217, 232));
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.container{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+h1{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+span{
+    color: yellow;
+}
+.lower{
+    padding: 1rem;
+    background: rgb(95, 111, 163);
+    /* opacity: 20%; */
+    border: 0;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.lower input{
+    width: 70%;
+    border: 0;
+    outline: 0;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lower button{
+    border: 0;
+    outline: 0;
+    padding: 7px; 
+    border-radius: 4px;
+    background: yellow;
+    cursor: pointer;
+}
+
+.para{
+    color: white;
+    display: none;
+}
